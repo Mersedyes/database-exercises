@@ -6,6 +6,7 @@ TRUNCATE albums;
 # of the tables, not 'claimed sales'. For artists listed with 'Various Artists', just use the
 # primary artist's name.
 
+# don't have to set the id since its incrementing automatically
 INSERT INTO albums (artist, name, release_date, genre, sales)
 VALUES ('Michael Jackson',	'Thriller',	1982,	'Pop', 47.3);
 
